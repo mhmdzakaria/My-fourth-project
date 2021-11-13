@@ -1,0 +1,501 @@
+/*---------------- (1)Start general ----------------*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*---------------- End general ----------------*/
+
+
+/*---------------- (2)Start body ----------------*/
+
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+/*---------------- End body ----------------*/
+
+/*---------------- (3)Start Navbar ----------------*/
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 99999999;
+}
+.navbar
+{
+	background: #0A3D62;
+	
+}
+.navbar-brand
+{
+	height: 40px;
+	padding-left: 30px;
+	color: white !important;
+	font-weight: bold;
+	
+}
+
+.navbar-toggler
+
+{
+	color: white;
+	border: none !important;
+	outline: none !important;
+	
+}
+
+.navbar-nav li
+
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+
+{
+	float: right;
+	text-align: center;
+	color: white !important;
+}
+
+
+.nav-link
+
+{
+	
+	color: #555 !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/*---------------- End Navbar ----------------*/
+
+/*---------------- (4)Start slider ----------------*/
+
+#slider
+{
+	width: 100%;
+}
+	
+.carousel-caption
+{
+	top: 80%;
+	left: 24%;
+	background: rgba(0,0,0,.5);
+	width: 700px;
+	height: 70px;
+	text-transform: uppercase;
+
+	
+}
+
+.carousel-caption h5
+{
+	color: white;
+}
+
+
+/*---------------- End slider ----------------*/
+
+/*---------------- (5)Start skills ----------------*/
+
+#skills
+{
+	margin-top: 50px;
+	padding: 40px;
+	
+}
+#skills h1
+{
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	color: white;
+	background: #0A3D62;
+	width: 700px;
+	margin: auto;
+}
+#skills .row
+{
+	margin-top: 70px;
+}
+.part-one
+{
+	padding-right: 40px;
+}
+.progress
+{
+	margin-bottom: 15px;
+}
+h5
+{
+	margin-bottom: 30px;
+}
+
+/*---------------- End skills ----------------*/
+
+/*---------------- (6)Start our services ----------------*/
+
+.services
+{
+	margin: 75px 0;
+	color: #0A3D62;
+}
+
+
+.services .title
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	background: #0A3D62;
+	width: 700px;
+	margin: auto;
+	
+}
+.services .lead
+{
+		
+	margin-top: 30px;
+	margin-bottom: 70px;
+	font-weight: bolder;
+
+}
+.services .card
+{
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	border: none;
+	padding: 40px auto;
+}
+
+.services .card:hover
+{
+	
+	color: white !important;
+	background: #0A3D62;
+
+}
+
+.services .fab
+{
+	font-size: 50px !important;
+	margin: 60px 0;
+}
+/*---------------- End our services ----------------*/
+
+/*---------------- (7)Start our team ----------------*/
+
+#team
+{
+	margin: 60px auto;
+}
+
+
+#team h1
+{
+	margin: 70px auto;
+	text-transform: uppercase;
+	color: white;
+	background: #0A3D62;
+	width: 350px;
+	margin: auto;
+	margin-bottom: 70px;
+}
+#team .card
+{
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	border: none;
+	padding: 20px;
+}
+#team .card .card-img-top
+{
+	width: 50%;
+	margin: auto;
+	border-radius: 50%;
+}
+#team .card:hover
+{
+	
+	color: white !important;
+	background: #0A3D62;
+
+}
+
+#team .fab
+{
+	padding: 10px !important;
+    font-size: 30px;
+}
+
+#team .fa-twitter:hover
+{
+	transform: scale(1.5,1.5);
+	transition: .5s ease-in-out;
+	
+}
+
+
+#team .fa-facebook-f:hover
+{
+	transform: scale(1.5,1.5);
+	transition: .5s ease-in-out;
+	
+}
+
+
+/*---------------- End our team ----------------*/
+
+/*---------------- (8)Start promo ----------------*/
+
+#promo
+{
+	margin: 100px auto;
+	background: #0A3D62;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+}
+
+#promo h5
+{
+	margin: 40px auto;
+	line-height: 2em;
+}
+
+/*---------------- End promo ----------------*/
+
+/*---------------- (9)Start price ----------------*/
+
+#price
+{
+	padding: 40px 0;
+}
+#price h1
+{
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	color: white;
+	background: #0A3D62;
+	width: 600px;
+	margin: auto;
+	margin-bottom: 70px;
+}
+.single-price
+{
+	margin: 10px auto;
+	width: 100%;
+	background: white;
+	transition: .5s
+
+}
+.single-price:hover
+{
+	box-shadow: 0 20px 20px #333;
+}
+.price-head
+{
+	background: #2196f3;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+
+}
+
+.price-head h2
+{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.price-head p
+{
+	color: #ccc;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.price-head span
+{
+	font-size: 15px;
+}
+.price-content
+{
+	
+	width: 100%;
+	padding: 0 15px;
+}
+.price-content ul li
+{
+	
+	border-bottom: 1px solid #efefef;
+	padding: 15px 10px;
+	list-style: none;
+	
+}
+ul .btn
+{
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+
+
+/*---------------- End price ----------------*/
+
+/*---------------- (10)Start Testimonials ----------------*/
+
+#testimonials
+{
+	padding: 50px auto;
+	margin-bottom: 100px;
+}
+
+#testimonials .text
+{
+	margin: 80px auto;
+}
+#testimonials .text h1
+{
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	color: white;
+	background: #0A3D62;
+	width: 600px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+#testimonials .text .lead
+{
+	font-size: 25px;
+}
+
+#testimonials .row
+{
+	margin-top: 30px;
+}
+#testimonials .col-lg-4
+{
+	margin: 40px auto;
+}
+.profile
+{
+	padding-top: 80px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+    padding-right: 40px;
+}
+
+.active2
+{
+
+	color: white !important;
+	background: #0A3D62;
+	box-shadow: 0 7px 7px #333;
+
+}
+.profile:hover
+{
+	color: white !important;
+	background: #0A3D62;
+	transition: .9s;
+	box-shadow: 0 20px 20px #333;
+}
+.profile h5
+{
+	padding: 20px;
+	border-bottom: 2px solid white;
+	border-bottom-width: thin;
+	text-transform: uppercase;
+	width: 75%;
+	margin: auto;
+}
+
+.client
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	top: -60px;
+	left: 33.333%;
+	border: 20px solid #fff;
+	
+}
+blockquote
+{
+	
+    padding: 30px;
+    padding-left: 25px;
+	
+}
+
+blockquote:before
+{
+    display:block;
+    font-size: 700%;
+    content: open-quote;
+    height: 1px;
+    margin-left: -2.2em;
+    position: relative;
+    top: -50px;
+}
+blockquote:after
+{
+    display: block;
+    font-size: 700%;
+    content: close-quote;
+    height: 1px;
+    margin-left: 1.45em;
+    position: relative;
+    top: -64px;
+}
+
+/*---------------- End testimonials ----------------*/
+
+/*---------------- (11)Start footer ----------------*/
+
+#footer
+{
+	background: #0A3D62;
+	padding: 40px 0;
+	color: white;
+}
+#footer p
+{
+	line-height: 2em;
+	text-transform: capitalize;
+}
+#footer h3
+{
+	
+}
+#footer input
+{
+	padding: 20px;
+}
+#footer span
+{
+	background: #1D1D29; 
+	color: white;
+}
+#footer .fab
+{
+	margin-right: 20px;
+}
+#footer .fab:hover
+{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+	transition: .5s;
+}
+
+/*---------------- End footer ----------------*/
